@@ -12,7 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.SessionAttributes;
 
-import com.mysql.cj.api.Session;
+//import com.mysql.cj.api.Session;
 
 import kr.co.planbut.applyBbs.ApplyBbsDTO;
 import kr.co.planbut.common.CityplanDTO;

@@ -134,10 +134,18 @@
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>8.0.28</version>
+		</dependency> -->
+		
+		
+		<!-- https://mvnrepository.com/artifact/com.oracle/ojdbc6 -->
+		<dependency>
+		  <groupId>com.oracle</groupId>
+		  <artifactId>ojdbc6</artifactId>
+		  <version>11.2.0.3</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client -->
@@ -171,9 +179,6 @@
 			<version>1.9.13</version>
 		</dependency>
 		
-		
-		
-		
 		<!-- Test -->
 		<dependency>
 			<groupId>junit</groupId>
@@ -181,7 +186,16 @@
 			<version>4.13.1</version>
 			<scope>test</scope>
 		</dependency>
+		
 	</dependencies>
+	
+	<repositories>	
+		<repository>		
+			<id>Spring Plugins</id>		
+			<url>http://repo.spring.io/plugins-release/</url>	
+		</repository>
+	</repositories>
+	
 	<build>
 		<plugins>
 			<plugin>

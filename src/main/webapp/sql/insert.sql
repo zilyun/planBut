@@ -108,7 +108,7 @@ INSERT INTO myaccomm(ac_code, cp_code, ac_name, price, memo)
 VALUES('AC001', 'CP001', 'PR민박', 5000, '메에모');
 
 -- 티켓-------------------------------------------
-INSERT INTO myticket(tic_code, cp_code, tic_name, date, price, memo)
+INSERT INTO myticket(tic_code, cp_code, tic_name, mt_date, price, memo)
 VALUES('TIC001', 'CP001', '박물관티켓', now(), 5000, '메에모');
 
 -- 투어-------------------------------------------
